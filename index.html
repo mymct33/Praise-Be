@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <title>Praise Be</title>
+    <meta charset = "UTF-8" />
+
+    <!--css loads-->>
+    <link rel="stylesheet" type="text/css" href="interface.css" />
+
+    <!--js loads-->>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <p>Credits: <span id="credits">0</span></p>
+    <button onClick="creditClick(1)">Earn Credits</button>
+    <button onClick="buyCursor()">
+        Cursor: <span id="cursors">0</span>
+        <br />
+        Cost: <span id="cursorCost">10</span>
+    </button>
+    <br />
+    <button onClick="save()">Save</button>
+    <button onClick="load()">Load</button>
+    <button onClick="wipeSave()">Wipe Save</button>
+</body>
+</html>
