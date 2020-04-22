@@ -15,15 +15,26 @@
         <p>Credits: <span id="credits">0</span></p>
     </div>
     <hr />
-    <div id="earnCredit">
-        <button onClick="creditClick(1)" class="button">Earn Credits</button>
+
+    <div id="leftColumn">
+        <div id="earnCredit">
+            <button onClick="creditClick(1)" class="earnButton">Earn Credits</button>
+        </div>
+        <br />
+
+        <div>
+            <div id="button">
+                <button onClick="buyCursor()" class="button">Buy Cursor</button>
+            </div>
+            <div id="info">
+                Cursor: <span id="cursors">0</span>
+                <br />
+                Cost: <span id="cursorCost">10</span>
+                <br />
+            </div>
+        </div>>
     </div>
-    <br />
-    <button onClick="buyCursor()" class="button">Buy Cursor</button>
-    Cursor: <span id="cursors">0</span>
-    <br />
-    Cost: <span id="cursorCost">10</span>
-    <br />
+
     <div id="saveTools">
         <button onClick="save()">Save</button>
         <button onClick="load()">Load</button>
