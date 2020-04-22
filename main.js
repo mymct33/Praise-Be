@@ -17,8 +17,6 @@ function buyCursor(){
         var cursorCost = Math.floor(10*Math.pow(1.1,cursors));
         document.getElementById('cursorCost').innerHTML = cursorCost;
     };
-    //var nextCost = Math.floor(10*Math.pow(1.1,cursors));
-    //document.getElementById('cursorCost').innerHTML = cursorCost;
 };
 
 function save(){
